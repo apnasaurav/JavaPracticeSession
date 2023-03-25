@@ -18,7 +18,8 @@ public class Main {
             default:
             System.out.println("Invaild Input");
         }
-	}
+        sc.close();
+	}   
 }
 
 class Birds

@@ -25,6 +25,7 @@ public class sktest {
         }else{
             System.out.println(str + "not found");
         }
+        sc.close();
     }
     public static void main(String[] args) {
         searchString();

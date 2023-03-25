@@ -6,13 +6,12 @@ public class Animal {
     private int eyes;
     void setLegs()
     {
-        final int legs;
-        final int ears;
-        final int eyes;
-        Scanner sc = new Scanner(System.in);
-       this.legs = sc.nextInt();
-       this.ears = sc.nextInt();
-       this.eyes = sc.nextInt();
+        
+       try (Scanner sc = new Scanner(System.in)) {
+        this.legs = sc.nextInt();
+           this.ears = sc.nextInt();
+           this.eyes = sc.nextInt();
+    }
     }
     void viewinfo()
     {

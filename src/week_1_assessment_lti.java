@@ -45,6 +45,7 @@ public class week_1_assessment_lti {
             System.out.println("Sum of column "+i+" = "+sumi);
             tempi++;
         }
+        sc.close();
     }
     
     public static void Findnonrepeatingcharacter()
@@ -69,6 +70,7 @@ public class week_1_assessment_lti {
         {
             System.out.println(-1);
         }
+        sc.close();
 
     }
     public static void main(String[] args) {

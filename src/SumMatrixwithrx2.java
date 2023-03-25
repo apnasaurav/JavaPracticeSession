@@ -35,6 +35,7 @@ public class SumMatrixwithrx2 {
             }
 
         }
+        sc.close();
     }
     
 }

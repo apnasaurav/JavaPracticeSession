@@ -33,6 +33,7 @@ public class rowsum {
                 sumCol=sumCol+arr[i][j];
             }
             System.out.println("Sum of column "+i+" = "+sumCol);
-        }     
+        } 
+        sc.close();    
     }  
 }

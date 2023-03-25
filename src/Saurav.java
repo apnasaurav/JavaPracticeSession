@@ -10,6 +10,7 @@ public class Saurav {
         String isdCode = sc.nextLine();
         Country con = new Country(name,countryCode,isdCode);
         con.displayCountryDetails();
+        sc.close();
 
         
     }

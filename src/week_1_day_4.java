@@ -21,6 +21,7 @@ public class week_1_day_4 {
                 }
             }
         }
+        sc.close();
         System.out.println(newStr);
 
     }
@@ -58,6 +59,7 @@ public class week_1_day_4 {
             }
             System.out.println();
         }
+        sc.close();
     }
     public static void Findlargestandsmallest()
     {
@@ -84,6 +86,7 @@ public class week_1_day_4 {
                 min=arr[i];
             }
         }
+        sc.close();
         System.out.println("Smallest Value :"+min);
         System.out.println("Largest Value :"+max);
         
@@ -98,7 +101,7 @@ public class week_1_day_4 {
         {
             arr[i]=sc.nextInt();
         }
-        int element =sc.nextInt();
+        //int element =sc.nextInt();
         int count=0;
         for(int i=0;i<n;i++)
         {
@@ -113,6 +116,7 @@ public class week_1_day_4 {
                 System.out.print(newArr[i]+ " ");
             }
         }
+        sc.close();
 
     }
 
@@ -143,6 +147,7 @@ public class week_1_day_4 {
                 max=arr[i];
             }
         }
+        sc.close();
         int diff = min-max;
         System.out.println(diff);
 
@@ -168,6 +173,7 @@ public class week_1_day_4 {
         {
             System.out.print(newArr[i]+ " ");
         }
+        sc.close();
     }
     public static int[] deleteSpecificElementinArray(int m)//m is the element to be removed.
     {

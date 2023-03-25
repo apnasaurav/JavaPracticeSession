@@ -10,6 +10,7 @@ public class code {
     public static void main(String[] args) {
         int[] numbers = {1,2,3,4};
         int[] dobuledNumbers = doubleArray(numbers);
+        System.out.println(dobuledNumbers);
         
         
     }

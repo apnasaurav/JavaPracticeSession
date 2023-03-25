@@ -67,6 +67,7 @@ public class Studenthighestmarks {
                 highestTotalRoll = students[i].rolino;
             }
         }
+        sc.close();
         System.out.println(highestTotalRoll + " " + highestTotal);
     }
 }

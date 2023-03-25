@@ -7,7 +7,7 @@ public class wee1_assessment_mcq {
 
     public static void q3()//This code will show NullPointer exception
     {
-        String str = null;
+        String str = "";
         switch(str)
         {
             case "null":
